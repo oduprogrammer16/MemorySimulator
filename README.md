@@ -10,6 +10,7 @@
 
 ## Requirements 
 
+* Java version 1.8
 * JDK 1.6 
 * Apache ant for build 
 
