@@ -13,7 +13,7 @@
 	<!-- Creates the .class files for the program -->
 	<target name="compile">
 		<mkdir dir="${class.dir}"/>
-		<javac includeantruntime="false" srcdir="${src.dir}" destdir="${class.dir}"/>
+		<javac includeantruntime="false" source="1.6" srcdir="${src.dir}" destdir="${class.dir}"/>
 	</target>
 
 	<!-- Builds the java exectuable program -->
